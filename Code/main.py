@@ -24,21 +24,21 @@ def denied():
     button_1.destroy()
 
 
-margin = Canvas(root, width=500, bg='#ffc8dd', height=100,
+margin = Canvas(root, width=500, bg='#ffb6c1', height=100,
                 bd=0, highlightthickness=0, relief='ridge')
 margin.pack()
 
-text_id = Label(root, bg='#ffc8dd', text='Quer namorar comigo?',
+text_id = Label(root, bg='#ffb6c1', text='Quer namorar comigo?',
                 fg='#590d22', font=('Montserrat', 24, 'bold'))
 text_id.pack()
 
-button_1 = tk.Button(root, text='Não', bg='#ffb3c1', command=denied,
+button_1 = tk.Button(root, text='Não', bg='#ffb6c1', command=denied,
                      relief=RIDGE, bd=3, font=('Montserrat', 8, 'bold'))
 button_1.place(x=300, y=250)
 
 root.bind('<Motion>', move_button_1)
 
-button_2 = tk.Button(root, text='Sim', bg='#ffb3c1', relief=RIDGE,
+button_2 = tk.Button(root, text='Sim', bg='#ffb6c1', relief=RIDGE,
                      bd=3, command=accepted, font=('Montserrat', 14, 'bold'))
 button_2.pack()
 
