@@ -17,7 +17,7 @@ def move_button_1(e):
 
 def accepted():
     messagebox.showinfo(
-        "Meu amor", 'Eu te amo meu amor, lanchinho mais tarde?')
+        "Meu amor", '❤️Meu amor, Sete anos se passaram desde o dia em que olhei nos seus olhos e disse “sim” para a melhor decisão da minha vida. E hoje, olhando para trás, percebo que cada dia vivido ao seu lado foi um presente. Nesses sete anos, aprendemos a rir juntos das pequenas coisas, a atravessar as dificuldades de mãos dadas e a comemorar cada conquista como se fosse a primeira. Você me viu nos meus melhores dias e me abraçou nos piores, e foi assim que entendi que o amor de verdade não está só nos grandes momentos, mas nos gestos simples do cotidiano: no café feito com carinho, no olhar cúmplice, no silêncio confortável de quem se sente em casa. Dizem que o sétimo ano é um marco, e para mim ele é a prova de que escolher você, todos os dias, nunca foi um esforço, sempre foi uma alegria. Você é meu porto seguro, meu melhor amigo, meu maior apoio e o meu lugar favorito no mundo. Obrigado(a) por cada memória construída, por cada sonho compartilhado e por todo o amor que você me dá sem pedir nada em troca. Eu me apaixono por você de novo a cada manhã. Que venham mais sete, e depois mais sete, e todos os anos que a vida nos permitir. Porque, onde você estiver, é ali que está o meu coração. Feliz sete anos de casamento. Eu te amo, hoje e sempre. Com todo o meu amor❤️')
 
 
 def denied():
