@@ -32,7 +32,7 @@ text_id = Label(root, bg='#ffb6c1', text='Aceita me amar a vida toda?❤️',
                 fg='#590d22', font=('Montserrat', 24, 'bold'))
 text_id.pack()
 
-button_1 = tk.Button(root, text='Não :()', bg='#ffb6c1', command=denied,
+button_1 = tk.Button(root, text='Não :(', bg='#ffb6c1', command=denied,
                      relief=RIDGE, bd=3, font=('Montserrat', 8, 'bold'))
 button_1.place(x=300, y=250)
 
