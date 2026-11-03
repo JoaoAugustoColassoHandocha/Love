@@ -32,13 +32,13 @@ text_id = Label(root, bg='#ffb6c1', text='Aceita me amar a vida toda?❤️',
                 fg='#590d22', font=('Montserrat', 24, 'bold'))
 text_id.pack()
 
-button_1 = tk.Button(root, text='😭Não😭', bg='#ffb6c1', command=denied,
+button_1 = tk.Button(root, text='Não :()', bg='#ffb6c1', command=denied,
                      relief=RIDGE, bd=3, font=('Montserrat', 8, 'bold'))
 button_1.place(x=300, y=250)
 
 root.bind('<Motion>', move_button_1)
 
-button_2 = tk.Button(root, text='❤️🌹SIIIIIIIIIIMMM🌹❤️', bg='#ffb6c1', relief=RIDGE,
+button_2 = tk.Button(root, text='❤️SIIIIIIIIIIMMM❤️', bg='#ffb6c1', relief=RIDGE,
                      bd=3, command=accepted, font=('Montserrat', 14, 'bold'))
 button_2.pack()
 
